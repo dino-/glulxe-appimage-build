@@ -3,5 +3,5 @@ Name=glulxe
 Exec=glulxe
 Icon=unix-terminal
 Type=Application
-Categories=Utility;ConsoleOnly;
+Categories=AdventureGame;ConsoleOnly;Game;
 Terminal=true
