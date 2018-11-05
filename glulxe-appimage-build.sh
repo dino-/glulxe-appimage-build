@@ -18,7 +18,7 @@ glulxeSrcArchive="glulxe-${glulxeVersion}.tar.gz"
 wget http://www.ifarchive.org/if-archive/programming/glulx/interpreters/glulxe/$glulxeSrcArchive
 tar xzf $glulxeSrcArchive
 
-# Build clkterm
+# Build glkterm
 pushd glkterm
 # Hack up the source for building on Ubuntu 14.04
 sed -i -e "s/<ncursesw\/ncurses.h>/<ncurses.h>/g" gtncursesw.c
