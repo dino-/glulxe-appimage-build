@@ -10,12 +10,14 @@ Build an AppImage of the glulxe interactive fiction interpreter
 
 glulxe-appimage-build will download source code for `glkterm` and `glulxe` and
 build all of it. If successful, the `glulxe` binary will be packaged into an
-AppImage.
+[AppImage](https://appimage.org/). AppImage is a portable, self-contained
+application packaging format for Linux software.
 
 It's normal to build AppImages on an older version of a Linux distro. To that
 end, glulxe-appimage-build was written to run on Ubuntu 14.04
 
-You will need these tools on your PATH:  
+You will need these tools on the PATH of the build system to create the
+AppImage:  
 linuxdeploy: https://github.com/linuxdeploy/linuxdeploy/releases  
 linuxdeploy-plugin-appimage: https://github.com/linuxdeploy/linuxdeploy-plugin-appimage/releases
 
